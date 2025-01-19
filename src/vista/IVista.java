@@ -15,6 +15,10 @@ public interface IVista {
     Alumno pedirDatosAlumno();
 
     Grupo pedirDatosGrupo();
+    
+    String pedirString();
+    
+    int pedirInt();
 
 
 }

@@ -90,5 +90,22 @@ public class VistaConsola implements IVista {
         return g1;
     }
 
+	@Override
+	public String pedirString() {
+
+		System.out.println("Introduce String");
+		String palabra=sc.nextLine();
+		return palabra;
+	}
+
+	@Override
+	public int pedirInt() {
+
+		System.out.println("Introduce Int");
+		int numero= sc.nextInt();
+		sc.nextLine();
+		return numero;
+	}
+
 }
 
